@@ -1,7 +1,7 @@
 ## Project Overview:
 A simple currency conversion tool similar to that found on Google, written in React, bootstraped with Vite, styled with Tailwind CSS.
 
-- The application should allows users to select the desired currency to convert from and to, input an amount, and then dynamically display the converted amount.
+- The application allows users to select the desired currency to convert from and to, input an amount, and then dynamically display the converted amount.
 
 ## Setup:
 1. Clone the repo.
