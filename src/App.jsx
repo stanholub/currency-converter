@@ -19,7 +19,7 @@ function App() {
   });
 
   const handleChange = (e) => {
-    setAmount(Math.abs(e.target.value));
+    setAmount(e.target.value);
   };
 
   const handleFromCurrencySelection = (e) => {

@@ -20,11 +20,10 @@ function useConversion({ fromCurrency, toCurrency }) {
   useEffect(() => {
     // Debounce the effect to avoid calling API each time user clicks
     const timerID = setTimeout(() => {
-      if (amount == 0) setResult(0);
+      if (amount <= 0) setResult(0);
       if (amount > 0) {
         setIsConversionLoading(true);
 
-        setAmount(parseFloat(amount).toFixed(2));
         const url = buildConvertUrl(fromCurrency, toCurrency, amount);
         const fetchConvertedValue = async () => {
           const res = await fetch(url);
