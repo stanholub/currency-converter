@@ -7,7 +7,7 @@ A simple currency conversion tool similar to that found on Google, written in Re
 1. Clone the repo.
 1. In the project's root, create a .env file
 1. Add your API key to the .env file, following the pattern: VITE_API_KEY=your-awesome-api-key
-1. Run npm install && npm run dev. Follow the URL provided in the console.
+1. Run `npm install && npm run dev`. Follow the URL provided in the console.
 
 
 ## API Overview:
